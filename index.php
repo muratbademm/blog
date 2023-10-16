@@ -7,4 +7,7 @@ if($uri=="/"){
 elseif($uri=="/about.php"){
     require "controllers/about.php";
 }
+else if($uri=="/contact"){
+    require "controllers/contact.php";
+}
 ?>
